@@ -3,7 +3,7 @@ import IntroPost from '../components/IntroPost'
 import Blogs from '../components/Blogs'
 import Footer from '../components/Footer'
 import Search from '../components/Search'
-import Header from  '../components/header'
+import Header from  '../components/Header'
 import College from '../components/College'
 
 
