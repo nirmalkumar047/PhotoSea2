@@ -1,4 +1,5 @@
 import React from 'react'
+import intro from '../assets/Images/intro.png'
 
 function IntroPost() {
 return (
@@ -8,7 +9,7 @@ return (
             <br /> 
             <h3 className='text-xl md:text-2xl pl-0 md:pl-10'>Photography is more than just taking pictures; it’s about freezing time, preserving emotions, and telling stories through a single frame.</h3>
         </div>
-        <img src="src/assets/Images/intro.png" className='w-full md:w-5/6 mt-5 md:mt-0' />
+        <img src={intro} className='w-full md:w-5/6 mt-5 md:mt-0' />
     </div>
 )
 }
