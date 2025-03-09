@@ -3,7 +3,7 @@ import React from 'react'
 function College() {
 return (
     <div className='flex flex-col md:flex-row'>
-        <img src="src/assets/Images/college.png" className='h-auto w-full md:h-[600px] md:w-auto pl-0 md:pl-10 transition-transform duration-00 ease-in-out transform hover:scale-105' />
+        <img src="src/assets/Images/College.png" className='h-auto w-full md:h-[600px] md:w-auto pl-0 md:pl-10 transition-transform duration-00 ease-in-out transform hover:scale-105' />
 
         <div className='flex-col pl-0 md:pl-20 py-10 md:py-30'>
             <h2 className='text-2xl md:text-4xl'>The Happiness of <span className='text-pink-700'>Photography</span></h2>

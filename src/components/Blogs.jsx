@@ -1,4 +1,5 @@
 import React from 'react'
+import wild from '../assets/Blogs/wild.jpg'
 
 function Blogs() {
 return (
@@ -6,7 +7,7 @@ return (
         <div className='border border-blue-300 rounded-[15px] p-5 hover:text-blue-300'>
             <h2 className='text-purple-700 text-3xl font-bold inline-block bg-gradient-to-r from-pink-300 to-blue-300 border border-blue-300 rounded-[15px]'>Wildlife Photography</h2>
             <div className='flex flex-col md:flex-row'>
-                <img src="src/assets/Blogs/wild.jpg" className='h-auto md:h-[400px] rounded-[25px] w-full md:w-auto' />
+                <img src={wild} className='h-auto md:h-[400px] rounded-[25px] w-full md:w-auto' />
                 <h3 className='mt-4 md:mt-0 md:ml-4'>Wildlife photography involves capturing images of various forms of wildlife. Unlike other forms of photography such as product or food photography, successful wildlife photography requires a photographer to choose the right place and right time when specific wildlife are present and active. It often requires great patience and considerable skill and command of the right photographic equipment.</h3>
             </div>
         </div>
